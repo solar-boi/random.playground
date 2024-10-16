@@ -1,6 +1,7 @@
 print("welcome to my computer quiz!")
 
-playing = input("Do you want to play? ")
+#there is an error in this code below because after inputting yes, YES, or no the program ends
+playing = input.lower("Do you want to play? ")
 if playing.lower != "YES" : 
     quit()
 
